@@ -25,7 +25,7 @@
         <option value="19">19</option>
         <option value="20">20</option>
     </select> Number of words
-
+ 
     <br>
     <input type="checkbox" name="capson"> Capitalize
     <br>
@@ -36,8 +36,10 @@
     <!--input type="text" maxlength="1" placeholder="-" size="1" name="separator"> Separator -->
     <br>
 
-    <input type="submit" value="generate password" class="btn btn-primary" >
+    <input type="submit" value="generate password" class="btn btn-info" >
 </form>
+    
+<center><a href="{% url 'about' %}" class="btn btn-info" >About</a></center>
 </div>
 
 <!-- This will generate url: http://127.0.0.1:8000/generatedpassword/?length=12 -!>
